@@ -6,7 +6,7 @@ the dict[rom_sym]
 """
 def romanToInt(s: str) -> int:
     rom_sym = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
-    integer = 0 # holds the integre converted to roman
+    integer = 0 # holds the integer converted from roman
     # iterating through the string
     for i in s:
         try:
